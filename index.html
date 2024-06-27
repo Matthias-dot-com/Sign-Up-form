@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="transparent">
+          <div class="logo">
+            <img
+              src="./css/assets/odin-lined.png"
+              width="100px"
+              height="100px"
+            />
+          </div>
+          <div class="hone"><h1>ODIN</h1></div>
+        </div>
+        <div class="credit">
+          <p>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="para">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dream. <br />Sign
+            up now to get started <br /><br />You know you want to.
+          </p>
+        </div>
+        <div class="lcontainer">
+          <div class="lp"><p>Lets do this!</p></div>
+          <form action="POST" class="login">
+            <div class="lr">
+            <div class="lleft">
+              <ul class="ul">
+                <li>
+                  <label for="fname"
+                    ><span
+                      aria-label="required"
+                      style="font-family: 'Courier New', Courier, monospace"
+                      >*</span
+                    >FIRST NAME<br /><input
+                      type="text"
+                      required
+                      id="fname"
+                      pattern="[a-zA-Z]"
+                      name="fname"
+                      placeholder="UserName"
+                  /></label>
+                </li>
+                <li>
+                  <label for="Email"
+                    ><span
+                      aria-label="required"
+                      style="font-family: 'Courier New', Courier, monospace"
+                      >*</span
+                    >EMAIL <br /><input
+                      required
+                      type="email"
+                      id="Email"
+                      name="Email"
+                      placeholder="example@dk.cdf"
+                  /></label>
+                </li>
+                <li>
+                  <label for="Pwd"
+                    ><span
+                      aria-label="required"
+                      style="font-family: 'Courier New', Courier, monospace"
+                      >*</span
+                    >PASSWORD <br /><input
+                      type="password"
+                      required
+                      minlength="5"
+                      maxlength="20"
+                      id="Pwd"
+                      name="Pwd"
+                      placeholder="PASSWORD"
+                  /></label>
+                </li>
+              </ul>
+            </div>
+            <div class="lright">
+              <ul class="ul">
+                <li>
+                  <label for="lname"
+                    ><span
+                      aria-label="required"
+                      style="font-family: 'Courier New', Courier, monospace"
+                      >*</span
+                    >LAST NAME<br /><input
+                      type="text"
+                      required
+                      pattern="[a-zA-Z]"
+                      id="lname"
+                      name="lname"
+                      placeholder="LastName"
+                  /></label>
+                </li>
+                <li>
+                  <label for="tele"
+                    ><span
+                      aria-label="required"
+                      style="font-family: 'Courier New', Courier, monospace"
+                      >*</span
+                    >PHONE NUMBER <br /><input
+                      type="tel"
+                      pattern="[0-9]{10}"
+                      required
+                      id="tele"
+                      name="tele"
+                      placeholder="1234567890"
+                  /></label>
+                </li>
+                <li>
+                  <label for="cPwd"
+                    ><span
+                      aria-label="required"
+                      style="font-family: 'Courier New', Courier, monospace"
+                      >*</span
+                    >CONFIRM PASSWORD <br /><input
+                      type="password"
+                      required
+                      minlength="5"
+                      maxlength="20"
+                      id="cPwd"
+                      name="cPwd"
+                      placeholder="Confirm Password"
+                  /></label>
+                </li>
+              </ul>
+            </div>
+          </div>
+            <div class="button">
+              <input
+                type="submit"
+                class="create"
+                value="Create Account"
+              ></input>
+            </div>
+          </form>
+        </div>
+        <div class="foot">
+          <div class="hacc">
+            <p>Already have an account? <a href="" rel="referrer" target="_blank">Log in</a></p>
+          </div>
+          <div class="logos">
+            <div class="google"><img src="css/assets/google.png" alt="" width="30px" height="30px"></div>
+            <div class="github"><img src="css/assets/github-logo.png" alt="" width="30px" height="30px"></div>
+            <div class="x"><img src="css/assets/icons8-twitter-50.png" alt="" width="30px" height="30px"></div>
+            <div class="insta"><img src="css/assets/icons8-instagram-48.png" alt="" width="30px" height="30px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
